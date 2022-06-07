@@ -115,7 +115,6 @@ print(bank_storage)
 
 
 # represent the Transaction class with several attributes
-# represent the Transaction class with several attributes
 class Transaction:
     def __init__(self, tr_id, type, amount, currency, tr_to, tr_from):
         # create a Transaction
@@ -168,7 +167,6 @@ class Transaction:
         else:
             return True
 
-    # you don't need to change this, but make sure you understand
     def process_transaction(self, storage):
         if not self.validate_transaction(self, storage):
             print("Trx {} invalid, skipping".format(self.tr_id))
@@ -231,7 +229,7 @@ transactions.append(transactions[0])
 
 for trx in transactions:
     print("--- processing trx {} ---".format(trx))
-    # kotomka = process_transaction(kotomka) # или мне вынуть из Transactions эту функцию или как-то переписать эту операцию
+    kotomka = process_transaction(kotomka)
     print("----- done -------")
     print()
 
