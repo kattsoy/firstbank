@@ -1,5 +1,5 @@
 # Creating a small bank.
-The small project to practice classes/OOP paradigm. My bank stores the information about accounts and make transactions between accounts.
+The small project to practice classes/OOP paradigm. My bank stores the information about accounts and make transactions between them.
 
 ## Design
 
